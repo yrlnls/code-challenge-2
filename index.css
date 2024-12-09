@@ -1,0 +1,77 @@
+/* Styling the whole body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-image: url('assets/shopping.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Container for centered content */
+.container {
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* styling the header */
+h1 {
+    margin-bottom: 20px; 
+    color: black;
+}
+
+/* Input and button container styles */
+.input-container, .button-container {
+    margin: 10px 0;
+}
+
+/* Input field styling */
+input {
+    margin-bottom: 10px; 
+    padding: 10px; 
+    width: 200px; 
+}
+
+/* styles for the list */
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin-top: 20px; 
+    width: 100%; 
+    max-width: 300px; 
+}
+
+/* styles for list items */
+li {
+    padding: 8px; 
+    border: 1px solid whitesmoke; 
+    margin-bottom: 5px; 
+    text-align: center; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    transition: background-color 0.3s; 
+}
+
+/* styling the button */
+button {
+    margin-left: 5px; 
+    padding: 5px 10px; 
+    cursor: pointer;
+}
+
+/* styles for purchased items */
+.purchased {
+    text-decoration: line-through; 
+    color: gray; 
+    background-color: #e0e0e0; 
+    opacity: 0.8;
+}

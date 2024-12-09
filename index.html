@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <!-- link to font awesome for shopping cart icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Shopping List <i class="fas fa-shopping-cart" aria-hidden="true"></i></h1>
+        <div class="input-container">
+            <!-- input field for adding new items to the shopping list -->
+            <input type="text" id="itemInput" placeholder="Add a new item" />
+            <button id="addButton">Add</button>
+        </div>
+        <div class="button-container">
+            <button id="clearListButton">Clear List</button>
+        </div>
+        <!-- unordered list to display the shopping list items -->
+        <ul id="itemList"></ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
